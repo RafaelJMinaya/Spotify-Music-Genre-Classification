@@ -49,6 +49,14 @@ This project analyzes a Spotify dataset containing 114,000 songs with correspond
 
 *Value Count for Each Genre*:
 
+![image](https://github.com/user-attachments/assets/945dc916-4847-4cf4-b84c-eb7238dd4f51)
+
+*Top 10 Most/Least Popular Genres (By Average Popularity)*:
+
+![image](https://github.com/user-attachments/assets/d1775273-b462-44fd-88c9-d71a02c63276)
+
+![image](https://github.com/user-attachments/assets/641963d5-643d-4981-8ae1-c572f3bd9aee)
+
 
 
 <br>
@@ -65,4 +73,4 @@ This project analyzes a Spotify dataset containing 114,000 songs with correspond
 
 ## 4. ***Multi-Model Evalutation***
 
-
+*Training and Performance Metrics w/ Default Parameters*
