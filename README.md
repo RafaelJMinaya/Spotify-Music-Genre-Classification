@@ -106,8 +106,13 @@ K-Nearest Neighbors:
 K-Nearest Neighbors provides the strongest precision score when predicting values that fall under the "Rock" genre compared to the other tested models, so we'll work with this model and improve its precision even more in predicting values under the "Rock" label.
 
 
+***Hyperparameter Tuning***
 
+![image](https://github.com/user-attachments/assets/e2575a02-504b-4d48-99c2-95e6d0233a60)
 
+Setting our n_neighbor parameter to 4 we get the results below
 
+![image](https://github.com/user-attachments/assets/b346ce93-82af-4972-b61b-cd792d2002d8)
 
+![image](https://github.com/user-attachments/assets/9893b484-2189-49b6-9c93-6bbe90b355ab)
 
