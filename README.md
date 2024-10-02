@@ -1,7 +1,7 @@
 # Spotify Music Genre Classification 🎸
 
 ## 0. *Project Overview*
-This project aims to develop a machine learning classification model that accurately identifies tracks labeled under the "rock" genre and assigns them to their correct genres. The primary goal is to address the common issue of genre mislabeling, where tracks tagged as "rock" may span various subgenres or even belong to entirely different musical categories. By utilizing a dataset of audio and music categorical features, this project will apply supervised learning techniques to improve genre classification accuracy, helping to refine the categorization process and ensure that "Rock" songs are appropriately classified according to their actual sound. characteristics
+This project aims to develop a machine learning classification model that accurately identifies tracks labeled under the "Rock" genre and assigns them to their correct genres. The primary goal is to address the common issue of genre mislabeling, where tracks tagged as "Rock" may span various subgenres or even belong to entirely different musical categories. By utilizing a dataset of audio and music categorical features, this project will apply supervised learning techniques to improve genre classification accuracy, helping to refine the categorization process and ensure that "Rock" songs are appropriately classified according to their actual sound. characteristics
 
 ![genre-pitch-your-single-to-spotify-playlist-curators](https://github.com/user-attachments/assets/6bc6ddc3-7e53-4efe-80ab-7d9bc1db4758)
 
