@@ -59,10 +59,9 @@ This project aims to develop a machine learning classification model that accura
 
 ***50 Most Popular Rock Songs***:
 
-![image](https://github.com/user-attachments/assets/128f917a-43de-442e-86ca-54b1bace3053)
-
 ![image](https://github.com/user-attachments/assets/45c60b70-c957-4b3f-aae6-63bf7b914a1b)
 
+![image](https://github.com/user-attachments/assets/128f917a-43de-442e-86ca-54b1bace3053)
 
 <br>
 
@@ -90,25 +89,24 @@ From a simple overview of model performance, each of our models is doing a great
 
 <br>
 
-Random Forest Classifier:
+*Random Forest Classifier*:
 
 ![image](https://github.com/user-attachments/assets/d8935513-6b5b-4df5-9a79-1c34a11fb32e)
 
-Gradient Boosting Classifier:
+*Gradient Boosting Classifier*:
 
 ![image](https://github.com/user-attachments/assets/db376d70-b5cb-47c1-9dd4-a158ab755e2b)
 
-K-Nearest Neighbors:
+*K-Nearest Neighbors*:
 
 ![image](https://github.com/user-attachments/assets/65a0fa5a-ce63-455d-b335-49cd79082791)
-
 
 K-Nearest Neighbors provides the strongest precision score when predicting values that fall under the "Rock" genre compared to the other tested models, so we'll work with this model and improve its precision even more in predicting values under the "Rock" label.
 
 
 ***Hyperparameter Tuning***
 
-![image](https://github.com/user-attachments/assets/e2575a02-504b-4d48-99c2-95e6d0233a60)
+![image](https://github.com/user-attachments/assets/a651b644-88f2-4cf5-be19-f726e66a7f52)
 
 Setting our n_neighbor parameter to 4 we get the results below
 
