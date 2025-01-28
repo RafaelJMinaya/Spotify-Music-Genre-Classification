@@ -23,7 +23,7 @@ This project aims to develop a machine learning classification model that accura
 
 <br>
 
-***Dataset***:
+***Dataset (preview)***:
 
 ![image](https://github.com/user-attachments/assets/38aa3a83-6f27-4838-90b3-2e4de1f4c3da)
 
@@ -41,25 +41,29 @@ This project aims to develop a machine learning classification model that accura
 
 ***Histograms of Numeric Features***:
 
-![image](https://github.com/user-attachments/assets/96e1a579-4a54-4749-9198-77fef6292bc3)
+![image](https://github.com/user-attachments/assets/ec1e5659-f56a-419b-93e6-b567566166f3)
 
 ***Correlation Matrix***:
 
-![image](https://github.com/user-attachments/assets/c1d4afb2-3441-4d6d-9adc-6128468e8402)
+![image](https://github.com/user-attachments/assets/c4acaacf-404c-49ef-814b-de0de7d6afc5)
 
 ***Value Count for Each Genre***:
 
 ![image](https://github.com/user-attachments/assets/945dc916-4847-4cf4-b84c-eb7238dd4f51)
 
-***Top 10 Most/Least Popular Genres (By Average Popularity)***:
+***Top 10 Most Popular Genres (By Average Popularity)***:
 
 ![image](https://github.com/user-attachments/assets/d1775273-b462-44fd-88c9-d71a02c63276)
 
+***Top 10 Least Popular Genres (By Average Popularity)***:
+
 ![image](https://github.com/user-attachments/assets/641963d5-643d-4981-8ae1-c572f3bd9aee)
 
-***50 Most Popular Rock Songs***:
+***50 Most Popular Rock Songs (Table)***:
 
 ![image](https://github.com/user-attachments/assets/45c60b70-c957-4b3f-aae6-63bf7b914a1b)
+
+***25 Most Popular Rock Songs (Graph)***:
 
 ![image](https://github.com/user-attachments/assets/128f917a-43de-442e-86ca-54b1bace3053)
 
@@ -103,12 +107,15 @@ From a simple overview of model performance, each of our models is doing a great
 
 K-Nearest Neighbors provides the strongest precision score when predicting values that fall under the "Rock" genre compared to the other tested models, so we'll work with this model and improve its precision even more in predicting values under the "Rock" label.
 
+<br>
 
 ***Hyperparameter Tuning***
 
 ![image](https://github.com/user-attachments/assets/a651b644-88f2-4cf5-be19-f726e66a7f52)
 
-Setting our n_neighbor parameter to 4 we get the results below
+<br>
+
+Setting our n_neighbor parameter to 4 within our K-Nearest Neighbors model we get the results below with our training and test sets
 
 ![image](https://github.com/user-attachments/assets/b346ce93-82af-4972-b61b-cd792d2002d8)
 
