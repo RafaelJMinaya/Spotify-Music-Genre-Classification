@@ -19,7 +19,7 @@ This project aims to develop a machine learning classification model that accura
 ## 1. ***Data Overview***
 
 ### **Spotify Song Dataset**:
->Comprised of 114k songs from Spotify with genre categories for each song
+>Dataset is comprised of 114k songs from Spotify with genre categories for each song.
 
 <br>
 
@@ -53,19 +53,19 @@ This project aims to develop a machine learning classification model that accura
 
 ***Top 10 Most Popular Genres (By Average Popularity)***:
 
-![image](https://github.com/user-attachments/assets/d1775273-b462-44fd-88c9-d71a02c63276)
+![image](https://github.com/user-attachments/assets/84de6021-146c-4b13-be14-87f824326a4b)
 
 ***Top 10 Least Popular Genres (By Average Popularity)***:
 
-![image](https://github.com/user-attachments/assets/641963d5-643d-4981-8ae1-c572f3bd9aee)
-
-***50 Most Popular Rock Songs (Table)***:
-
-![image](https://github.com/user-attachments/assets/45c60b70-c957-4b3f-aae6-63bf7b914a1b)
+![image](https://github.com/user-attachments/assets/772d0aeb-4723-471f-a3e4-f69aa7a239b6)
 
 ***25 Most Popular Rock Songs (Graph)***:
 
 ![image](https://github.com/user-attachments/assets/128f917a-43de-442e-86ca-54b1bace3053)
+
+***50 Most Popular Rock Songs (Table)***:
+
+![image](https://github.com/user-attachments/assets/f2668b59-2db9-4b4b-bd6f-4f8ed38e64b1)
 
 <br>
 
@@ -85,23 +85,23 @@ This project aims to develop a machine learning classification model that accura
 
 ## 4. ***Multi-Model Evalutation***
 
-***Training and Performance Metrics w/ Default Parameters***:
+### ***Training and Performance Metrics w/ Default Parameters***
 
-![image](https://github.com/user-attachments/assets/6170de50-a357-4375-99a9-6707526c1933)
+![image](https://github.com/user-attachments/assets/27d45250-7919-4a21-99a1-e416a17db234)
 
 From a simple overview of model performance, each of our models is doing a great job; however, let's take a closer look into the accuracy of predicting certain labels.
 
 <br>
 
-*Random Forest Classifier*:
+***Random Forest Classifier***:
 
 ![image](https://github.com/user-attachments/assets/d8935513-6b5b-4df5-9a79-1c34a11fb32e)
 
-*Gradient Boosting Classifier*:
+***Gradient Boosting Classifier***:
 
 ![image](https://github.com/user-attachments/assets/db376d70-b5cb-47c1-9dd4-a158ab755e2b)
 
-*K-Nearest Neighbors*:
+***K-Nearest Neighbors***:
 
 ![image](https://github.com/user-attachments/assets/65a0fa5a-ce63-455d-b335-49cd79082791)
 
@@ -109,13 +109,35 @@ K-Nearest Neighbors provides the strongest precision score when predicting value
 
 <br>
 
-***Hyperparameter Tuning***
+## 5. ***K-Nearest Neighbors Optimization***
 
-![image](https://github.com/user-attachments/assets/a651b644-88f2-4cf5-be19-f726e66a7f52)
+### ***Feature Importance***
+
+![image](https://github.com/user-attachments/assets/9d249876-27c7-4a72-a1d9-d706eda82b10)
+
+Important to note that Permutation Importance is being used in this case as this method is model-agnostic and works well for KNN, because it doesn't have built-in feature importance like tree-based models.
+
+As well, Normalization is also being used as normalizing the importance scores makes sure that they sum to 1, making it easier to compare relative importance.
+
+<br>
+
+### ***Hyperparameter Tuning***
+
+![image](https://github.com/user-attachments/assets/357b97c3-dea7-4cdb-8fd8-a1aedd62e673)
+
+Maximum KNN score on the train data: 99.34%
+
+Maximum KNN score on the test data: 99.12%
 
 <br>
 
 Setting our n_neighbor parameter to 4 within our K-Nearest Neighbors model we get the results below with our training and test sets
+
+<br>
+
+## 6. ***Results & Conclusion***
+
+### *Classification Report & Confussion Matrix*
 
 ![image](https://github.com/user-attachments/assets/b346ce93-82af-4972-b61b-cd792d2002d8)
 
