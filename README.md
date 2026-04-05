@@ -12,7 +12,7 @@ This project aims to develop a machine learning classification model that accura
 
 3. **Genre Popularity**: Analyzed the most and least popular genres based on song popularity.
 
-4. **Modeling**: Built and evaluated classification models, such as Random Forest, to predict whether a song belongs to the "Rock" genre based on its features.
+4. **Modeling**: Built and evaluated classification models, such as Random Forest, Gradient Boosting, and K-Nearest Neighbors to predict whether a song belongs to the "Rock" genre based on its features.
 
 <br>
 
@@ -83,7 +83,7 @@ This project aims to develop a machine learning classification model that accura
 
 <br>
 
-## 4. ***Multi-Model Evalutation***
+## 4. ***Multi-Model Evaluation***
 
 ### ***Training and Performance Metrics w/ Default Parameters***
 
@@ -137,7 +137,7 @@ Setting our n_neighbor parameter to 4 within our K-Nearest Neighbors model we ge
 
 ## 6. ***Results & Conclusion***
 
-### *Classification Report & Confussion Matrix*
+### *Classification Report & Confusion Matrix*
 
 ![image](https://github.com/user-attachments/assets/b346ce93-82af-4972-b61b-cd792d2002d8)
 
